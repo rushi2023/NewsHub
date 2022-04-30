@@ -1,0 +1,66 @@
+/* <!-- HTML !--> */
+/* <button class="button-32" role="button">Button 32</button> */
+
+/* CSS */
+/* .button {
+  background-color: #fff000;
+  border-radius: 12px;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px 15px;
+  text-align: center;
+  transition: 200ms;
+  width: 100%;
+  box-sizing: border-box;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:not(:disabled):hover,
+.button:not(:disabled):focus {
+  outline: 0;
+  background: #f4e603;
+  box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15);
+}
+
+.button:disabled {
+  filter: saturate(0.2) opacity(0.5);
+  cursor: not-allowed;
+}
+ */
+
+.button {
+    font-weight: bold;
+    border: 1px solid #f4e603;
+    background: #f4e603;
+    color: black;
+    padding: 0.5rem 0.75rem;
+    cursor: pointer;
+    font-size: 1.rem;
+    border-radius: 13px;
+  }
+  
+  .button:hover,
+  .button:active {
+    background: #fff653;
+    border-color: #f4e603;
+  }
+  
+  .button:focus {
+    outline: none;
+  }
+  
+  button:disabled,
+  button:focus:disabled,
+  button:hover:disabled,
+  button:active:disabled {
+    background: #ccc;
+    border-color: #ccc;
+    color: #666666;
+    cursor: not-allowed;
+  }
+  

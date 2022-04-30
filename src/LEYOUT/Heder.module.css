@@ -1,0 +1,101 @@
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5rem;
+    background-color: #08c7f7bf;
+    color: white;
+    display: flex;
+ text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    z-index: 10;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Rowdies', cursive;
+  }
+
+  .Link{
+   text-decoration: none;
+   color: azure; 
+  }
+ .head{
+   display: flex;
+   z-index: 12;
+
+ }
+ h1{
+   margin-top: 5px;
+   cursor: pointer;
+  
+ }
+
+ .welcom{
+   margin-top: 23px;
+   margin-left: 150px;
+ }
+.list{
+  display: flex;
+ 
+  padding:10px;
+}
+ ul{
+   display: flex;
+  margin-left: 20px;
+  list-style-type: none;
+   font-family: 'Kanit', sans-serif;
+font-family: 'Prompt', sans-serif;
+font-family: 'Rowdies', cursive;
+ }
+ li{
+   padding: 10px;
+  
+   
+cursor: pointer;
+ }
+ 
+
+ @media(max-width:900px){
+   ul{
+     margin: 0;
+   }
+ }
+ @media(max-width:650px){
+  .header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 15rem;
+    background-color: #08c7f7bf;
+    color: white;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    z-index: 10;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Rowdies', cursive;
+  }
+  .newsName{
+    display: flex;
+    justify-content: space-around
+  }
+  
+  .head , .list {
+    display: block;
+    margin:0;
+  }
+
+  .button{
+   display: grid;
+   align-items: center;
+  }
+ }
