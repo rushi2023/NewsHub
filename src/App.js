@@ -24,7 +24,7 @@ function App() {
     <main>
       <UserAuthContextProvider>
         <Routes>
-          <Route path="/NewsHub" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route
             path="/home"
             element={

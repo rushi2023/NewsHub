@@ -76,7 +76,7 @@ const LoginHandler = async (e) => {
 
             <p className={classes.text__center}>
               Not a member?{" "}
-              <a href="/registration" className={classes.a}>
+              <a href="#/registration" className={classes.a}>
                 Sign up now
               </a>{" "}
               <svg className={classes.icon}></svg>
