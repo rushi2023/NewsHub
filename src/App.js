@@ -10,12 +10,6 @@ import Home from "./pages/landingpage/HomePage";
 import Profile from "./pages/profile 10.35.46 PM/Profile";
 
 
-
-
-
-
-
-
 function App() {
 
 
