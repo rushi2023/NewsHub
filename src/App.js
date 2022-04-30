@@ -33,8 +33,8 @@ function App() {
               </ProtectedRoute>
             }
           />
-          <Route exact path="/login" element={<Login />} />
-          <Route exact path="/registration" element={<Registration />} />
+          <Route  path="/login" element={<Login />} />
+          <Route  path="/registration" element={<Registration />} />
           <Route
             path="/breakingnews"
             element={
