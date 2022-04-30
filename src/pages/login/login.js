@@ -20,7 +20,7 @@ const LoginHandler = async (e) => {
   try {
     await logIn(email, password);
   
-    navigate("/");
+    navigate("/home");
   } catch (err) {
     setError(err.message);
   }

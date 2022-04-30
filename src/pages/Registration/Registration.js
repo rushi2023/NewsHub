@@ -52,7 +52,7 @@ const signupHandler = async (e) => {
     );
     await fetch();
     console.log(udata);
-    navigate("/");
+    navigate("/home");
 
   } catch (err) {
     setError(err.message);

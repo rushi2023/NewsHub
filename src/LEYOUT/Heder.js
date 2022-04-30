@@ -16,7 +16,7 @@ console.log(res);
       <header className={classes.header}>
         <div className={classes.head}>
           <div className={classes.newsName}>
-            <Link to="/" style={{ textDecoration: "none", color: "white" }}>
+            <Link to="/home" style={{ textDecoration: "none", color: "white" }}>
               {" "}
               <h1>
                 <BiNews />

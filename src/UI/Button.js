@@ -10,7 +10,7 @@ const Button = ()=>{
   const handleLogout = async () => {
     try {
       await logOut();
-      navigate("/");
+      navigate("/home");
     } catch (error) {
       console.log(error.message);
     }

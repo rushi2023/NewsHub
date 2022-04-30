@@ -24,8 +24,9 @@ function App() {
     <main>
       <UserAuthContextProvider>
         <Routes>
+          <Route path="/" element={<Home />} />
           <Route
-            path="/"
+            path="/home"
             element={
               <ProtectedRoute>
                 <News category="general" country="In" />
@@ -46,7 +47,7 @@ function App() {
             path="/profile"
             element={
               <ProtectedRoute>
-<Profile/>
+                <Profile />
               </ProtectedRoute>
             }
           />
@@ -67,7 +68,6 @@ function App() {
               </ProtectedRoute>
             }
           />
-          <Route path="/home" element={<Home />} />
         </Routes>
       </UserAuthContextProvider>
     </main>
