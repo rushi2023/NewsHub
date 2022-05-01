@@ -12,19 +12,19 @@ const Login = ()=>{
 const [email, setEmail] = useState("");
 const [error, setError] = useState("");
 const [password, setPassword] = useState("");
-const { logIn } = useUserAuth();
-let navigate = useNavigate();
-const LoginHandler = async (e) => {
-  e.preventDefault();
-  setError("");
-  try {
-    await logIn(email, password);
+// const { logIn } = useUserAuth();
+// let navigate = useNavigate();
+// const LoginHandler = async (e) => {
+//   e.preventDefault();
+//   setError("");
+//   try {
+//     await logIn(email, password);
   
-    navigate("/home");
-  } catch (err) {
-    setError(err.message);
-  }
-};
+//     navigate("/home");
+//   } catch (err) {
+//     setError(err.message);
+//   }
+// };
 
     return (
       <>
@@ -32,7 +32,7 @@ const LoginHandler = async (e) => {
         <div className={classes.body}>
           <div class={classes.grid}>
             <form
-              onSubmit={LoginHandler}
+//               onSubmit={LoginHandler}
               className={`${classes.form} ${classes.login}`}
             >
               {error && <p>{error}</p>}
